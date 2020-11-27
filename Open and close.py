@@ -1,0 +1,5 @@
+txt_file = open('tylko_odczyt.txt', 'w')
+txt_file.write('Linia tekstu.\nDruga linia.\nTrzecia linia.')
+txt_file = open('tylko_odczyt.txt', 'r')
+print(txt_file.read())
+txt_file.close()
